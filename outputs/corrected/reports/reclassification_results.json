@@ -1,0 +1,144 @@
+{
+  "design": {
+    "signal_calibration_training": "Pathogenic vs Benign only",
+    "path_scorer_training": "Pathogenic vs Benign only",
+    "classifier_training": "Pathogenic vs Benign only",
+    "locked_validation": "Likely_pathogenic vs Likely_benign",
+    "outer_folds_for_calibration": 5,
+    "bootstrap_replicates": 1000,
+    "bootstrap_unit": "gene cluster",
+    "uncertainty_subgroup_boundary": "definitive-training median",
+    "vus_interpretation": "exploratory; no gold-standard labels"
+  },
+  "n": {
+    "definitive_training": 121,
+    "locked_validation": 398,
+    "locked_validation_positive": 70,
+    "vus": 463
+  },
+  "models": {
+    "Sequence only": {
+      "auroc": 0.9552700348432056,
+      "auroc_lo": 0.9012300040053296,
+      "auroc_hi": 0.9857029278882825,
+      "aupr": 0.7739191619137946,
+      "aupr_lo": 0.4841245018884457,
+      "aupr_hi": 0.9504469412079585,
+      "brier": 0.1120962314478197,
+      "brier_lo": 0.08537686987710558,
+      "brier_hi": 0.12743699686232898,
+      "ece": 0.1933952917610281
+    },
+    "Sequence + graph": {
+      "auroc": 0.9679006968641115,
+      "auroc_lo": 0.903714344706013,
+      "auroc_hi": 0.9902039598127074,
+      "aupr": 0.8516982752451591,
+      "aupr_lo": 0.5963311334128488,
+      "aupr_hi": 0.9597511225690128,
+      "brier": 0.12049294742743825,
+      "brier_lo": 0.09131360530814756,
+      "brier_hi": 0.15043304129430096,
+      "ece": 0.21855567060577322
+    }
+  },
+  "paired_improvement": {
+    "estimable": true,
+    "delta_auroc": 0.012630662020905903,
+    "delta_auroc_lo": -0.02353641456582625,
+    "delta_auroc_hi": 0.019070251937984645,
+    "delta_aupr": 0.07777911333136445,
+    "delta_aupr_lo": -0.05001018870597232,
+    "delta_aupr_hi": 0.21908287402330734
+  },
+  "paired_improvement_by_uncertainty": {
+    "low_uncertainty": {
+      "n": 70,
+      "estimable": false,
+      "delta_auroc": null,
+      "delta_auroc_lo": null,
+      "delta_auroc_hi": null,
+      "delta_aupr": null,
+      "delta_aupr_lo": null,
+      "delta_aupr_hi": null
+    },
+    "high_uncertainty": {
+      "n": 328,
+      "estimable": true,
+      "delta_auroc": 0.016057585825027698,
+      "delta_auroc_lo": -0.023818681318681343,
+      "delta_auroc_hi": 0.02425619457269069,
+      "delta_aupr": 0.07777911333136445,
+      "delta_aupr_lo": -0.050010188705972215,
+      "delta_aupr_hi": 0.21908287402330745
+    }
+  },
+  "thresholds": {
+    "Sequence only": {
+      "low": 0.27023557185116664,
+      "high": 0.953067132682524
+    },
+    "Sequence + graph": {
+      "low": 0.45060528061576494,
+      "high": 0.9216242447812699
+    }
+  },
+  "vus_calls": {
+    "Sequence only": {
+      "Still uncertain": 165,
+      "Benign-like": 164,
+      "Pathogenic-like": 134
+    },
+    "Sequence + graph": {
+      "Benign-like": 178,
+      "Still uncertain": 143,
+      "Pathogenic-like": 142
+    }
+  },
+  "vus_yield_bootstrap": {
+    "Sequence only": {
+      "benign_like": {
+        "mean": 0.34255962059281736,
+        "lo": 0.19917969276377848,
+        "hi": 0.4480042682926829
+      },
+      "pathogenic_like": {
+        "mean": 0.2885154282562688,
+        "lo": 0.2393018018018018,
+        "hi": 0.35097493036211697
+      },
+      "resolved": {
+        "mean": 0.6310750488490862,
+        "lo": 0.5106274424663483,
+        "hi": 0.7116309251493201
+      }
+    },
+    "Sequence + graph": {
+      "benign_like": {
+        "mean": 0.3675723086427246,
+        "lo": 0.20723618715778994,
+        "hi": 0.4589072045236532
+      },
+      "pathogenic_like": {
+        "mean": 0.3118380127124508,
+        "lo": 0.23809523809523808,
+        "hi": 0.4033248020088853
+      },
+      "resolved": {
+        "mean": 0.6794103213551754,
+        "lo": 0.5645428872656074,
+        "hi": 0.7445665482578792
+      }
+    }
+  },
+  "selective_accuracy": {
+    "Sequence only": {
+      "coverage_50": 0.9296482412060302,
+      "coverage_100": 0.8668341708542714
+    },
+    "Sequence + graph": {
+      "coverage_50": 0.9296482412060302,
+      "coverage_100": 0.8492462311557789
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "gene": "APP",
+  "gene_id": "HGene:351",
+  "variant_id": "1397412",
+  "clinvar_class": "Uncertain_significance",
+  "p": 0.9547110894594532,
+  "H": 0.4394969869215134,
+  "theta": 0.7455472882293621,
+  "target_symptom": "Aphasia",
+  "hidden_from_diseases": [
+    "Alzheimer's disease"
+  ],
+  "n_candidates_filtered": 215,
+  "n_held_out_positives": 12,
+  "n_candidate_paths": 637,
+  "n_alternative_routes": 3,
+  "alternative_routes": [
+    {
+      "path": [
+        "APP",
+        "GJA1",
+        "autistic disorder",
+        "Aphasia"
+      ],
+      "types": [
+        "Gene",
+        "Gene",
+        "Disease",
+        "Phenotype"
+      ],
+      "prob": 0.00039208954566769585
+    },
+    {
+      "path": [
+        "APP",
+        "HES5",
+        "brain cancer",
+        "Aphasia"
+      ],
+      "types": [
+        "Gene",
+        "Gene",
+        "Disease",
+        "Phenotype"
+      ],
+      "prob": 0.00037671622483970494
+    },
+    {
+      "path": [
+        "APP",
+        "JUN",
+        "epilepsy syndrome",
+        "Aphasia"
+      ],
+      "types": [
+        "Gene",
+        "Gene",
+        "Disease",
+        "Phenotype"
+      ],
+      "prob": 0.0003385239751018892
+    }
+  ],
+  "rankings": {
+    "full": {
+      "rank_of_target": 2,
+      "score_of_target": 0.0011073297456092922,
+      "top10": [
+        {
+          "symptom": "Dyslexia",
+          "score": 0.001963671663667154,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Aphasia",
+          "score": 0.0011073297456092922,
+          "held_out_positive": true
+        },
+        {
+          "symptom": "Language Development Disorders",
+          "score": 0.0007579479364503503,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Gerstmann Syndrome",
+          "score": 0.0004239509859502263,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Acute Coronary Syndrome",
+          "score": 0.0002995659744523327,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Rett Syndrome",
+          "score": 0.00029582716709880606,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Nausea",
+          "score": 0.00029473098844560444,
+          "held_out_positive": true
+        },
+        {
+          "symptom": "Williams Syndrome",
+          "score": 0.00025698679693459076,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "De Lange Syndrome",
+          "score": 0.00023607216093491452,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Fragile X Syndrome",
+          "score": 0.00023607216093491452,
+          "held_out_positive": false
+        }
+      ]
+    },
+    "fixed_temperature": {
+      "rank_of_target": 2,
+      "score_of_target": 0.0014981463465456465,
+      "top10": [
+        {
+          "symptom": "Dyslexia",
+          "score": 0.002485443113811483,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Aphasia",
+          "score": 0.0014981463465456465,
+          "held_out_positive": true
+        },
+        {
+          "symptom": "Language Development Disorders",
+          "score": 0.000976560201036355,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Gerstmann Syndrome",
+          "score": 0.0005682637259135611,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Nausea",
+          "score": 0.0004702165277807963,
+          "held_out_positive": true
+        },
+        {
+          "symptom": "Acute Coronary Syndrome",
+          "score": 0.00042981840876921113,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Rett Syndrome",
+          "score": 0.00042081849759812904,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Williams Syndrome",
+          "score": 0.0003637020983090542,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "De Lange Syndrome",
+          "score": 0.0003292958319263794,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Fragile X Syndrome",
+          "score": 0.0003292958319263794,
+          "held_out_positive": false
+        }
+      ]
+    },
+    "distmult": {
+      "rank_of_target": 42,
+      "score_of_target": 0.9284037707000147,
+      "top10": [
+        {
+          "symptom": "Sleep Apnea, Obstructive",
+          "score": 0.9842951114079499,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Vomiting",
+          "score": 0.9810798794820809,
+          "held_out_positive": true
+        },
+        {
+          "symptom": "Jaundice, Obstructive",
+          "score": 0.9805966474788145,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Nausea",
+          "score": 0.978050124314379,
+          "held_out_positive": true
+        },
+        {
+          "symptom": "Abdominal Pain",
+          "score": 0.9734719889065461,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Body Weight",
+          "score": 0.9719960902015878,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Overweight",
+          "score": 0.9696084107637836,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Psychophysiologic Disorders",
+          "score": 0.9694292664142865,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Weight Loss",
+          "score": 0.9684504425312993,
+          "held_out_positive": false
+        },
+        {
+          "symptom": "Hearing Loss, Sensorineural",
+          "score": 0.9681806008060505,
+          "held_out_positive": false
+        }
+      ]
+    }
+  },
+  "selection_rule": "per gene: VUS with H nearest global median H; illustrated pair fixed by name (APP, Aphasia); all pairs in hetionet_linkpred_example_all_pairs.csv",
+  "all_pairs_n": 88,
+  "all_pairs_top10": 19,
+  "this_gene_positive_ranks": [
+    2,
+    7,
+    12,
+    14,
+    15,
+    29,
+    124,
+    177,
+    179,
+    181,
+    193,
+    200
+  ],
+  "held_out_edges": 671
+}

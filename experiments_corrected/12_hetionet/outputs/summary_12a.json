@@ -1,0 +1,224 @@
+{
+  "graph": {
+    "nodes": 34723,
+    "edges": 1341335,
+    "node_types": {
+      "Gene": 20945,
+      "BiologicalProcess": 11381,
+      "Pathway": 1822,
+      "Phenotype": 438,
+      "Disease": 137
+    },
+    "relations": {
+      "GENEREGULATESGENE": 264812,
+      "GENEPARTICIPATESINBIOLOGICALPROCESS": 559504,
+      "GENEINTERACTSWITHGENE": 293433,
+      "GENEINPATHWAY": 84372,
+      "GENEASSOCIATESWITHDISEASE": 12623,
+      "GENECOVARIESWITHGENE": 123234,
+      "DISEASEMANIFESTSSYMPTOM": 3357
+    },
+    "symptoms_with_edges": 415,
+    "symptoms_multi_parent": 373,
+    "max_disease_parents": 49,
+    "disease_sources": 133
+  },
+  "n_valid": 985,
+  "n_genes": 18,
+  "training": {
+    "n_train": 121,
+    "constant_predictor_loss": 0.64026504552412,
+    "objective_default": 0.23826600428289968,
+    "objective_informed": 0.2382659954827868,
+    "selected": "informed",
+    "weight_cosine_default_vs_informed": 0.9999997799556964,
+    "anchor_auroc": 0.9725609756097562
+  },
+  "summary": [
+    {
+      "model": "beam_20",
+      "entropy_mean": 4.255020946844355,
+      "top1_mean": 0.07023037875829752,
+      "effective_mean": 19.257861811618763,
+      "js_to_full_mean": 0.3779311619456997,
+      "rho_H_entropy": -0.1483386548234832,
+      "rho_ci_low": -0.48131033969680215,
+      "rho_ci_high": 0.12649552470862838,
+      "n": 985
+    },
+    {
+      "model": "beam_5",
+      "entropy_mean": 2.291433238469169,
+      "top1_mean": 0.21116751269035536,
+      "effective_mean": 4.932571064018749,
+      "js_to_full_mean": 0.3702820942648476,
+      "rho_H_entropy": 0.013588211619724348,
+      "rho_ci_low": -0.07316188597791173,
+      "rho_ci_high": 0.09979450661383647,
+      "n": 985
+    },
+    {
+      "model": "fixed_temperature",
+      "entropy_mean": 5.148331700286692,
+      "top1_mean": 0.13839316686566272,
+      "effective_mean": 39.540218965562225,
+      "js_to_full_mean": 0.09356885999557761,
+      "rho_H_entropy": 0.49525486673873315,
+      "rho_ci_low": 0.2806522911263936,
+      "rho_ci_high": 0.7966757782805619,
+      "n": 985
+    },
+    {
+      "model": "full",
+      "entropy_mean": 4.351054114558746,
+      "top1_mean": 0.2525764708486328,
+      "effective_mean": 40.308878359923774,
+      "js_to_full_mean": 0.0,
+      "rho_H_entropy": 0.8782763026331105,
+      "rho_ci_low": 0.7795706987314108,
+      "rho_ci_high": 0.9095561760454934,
+      "n": 985
+    },
+    {
+      "model": "ppr",
+      "entropy_mean": 7.252083647414521,
+      "top1_mean": 0.03548729167767752,
+      "effective_mean": 159.51963014993217,
+      "js_to_full_mean": 0.566761913350374,
+      "rho_H_entropy": 0.027817778239492257,
+      "rho_ci_low": -0.12051345385275174,
+      "rho_ci_high": 0.09432569069087968,
+      "n": 985
+    },
+    {
+      "model": "uniform_paths",
+      "entropy_mean": 7.654894468217296,
+      "top1_mean": 0.01723561022119,
+      "effective_mean": 207.74226913037532,
+      "js_to_full_mean": 0.5875219808057636,
+      "rho_H_entropy": 0.026914157020472822,
+      "rho_ci_low": -0.10570435316656876,
+      "rho_ci_high": 0.08955189014937351,
+      "n": 985
+    }
+  ],
+  "extra": {
+    "rho_H_grouped_entropy": {
+      "rho": 0.8934986734367303,
+      "lo": 0.8252340827130064,
+      "hi": 0.9725448498196076
+    },
+    "rho_H_top1": {
+      "rho": -0.8171262345682149,
+      "lo": -0.8873179188229748,
+      "hi": -0.7822996248267226
+    },
+    "rho_Hknn_entropy_full": {
+      "rho": 0.7045538435572993,
+      "lo": 0.6629207215193589,
+      "hi": 0.7524151613594814
+    },
+    "rho_H_unique_final_paths": {
+      "rho": 0.896096582336159,
+      "lo": 0.7938441977437045,
+      "hi": 0.9438471534898778
+    },
+    "fidelity": {
+      "js_grouped_mean": 0.0030232889294137958,
+      "js_grouped_median": 0.0027074692230833943,
+      "js_endpoint_mean": 0.04293797375673,
+      "acceptance_mean": 0.47247070727331186,
+      "n_states_mean": 713.1685279187817,
+      "n_states_max": 967
+    }
+  },
+  "strata": [
+    {
+      "stratum": "Q1 low",
+      "entropy_mean": 2.0199925623043726,
+      "top1_mean": 0.5293523158156413,
+      "n": 352
+    },
+    {
+      "stratum": "Q2",
+      "entropy_mean": 4.767109134471205,
+      "top1_mean": 0.15726412766282102,
+      "n": 236
+    },
+    {
+      "stratum": "Q3",
+      "entropy_mean": 5.847213618510657,
+      "top1_mean": 0.07958623730858098,
+      "n": 170
+    },
+    {
+      "stratum": "Q4 high",
+      "entropy_mean": 6.412717401000925,
+      "top1_mean": 0.05203442355908799,
+      "n": 227
+    }
+  ],
+  "downstream": [
+    {
+      "model": "sequence_only",
+      "n_train": 121,
+      "n_test": 399,
+      "auroc": 0.9556853315012023,
+      "auroc_ci_low": 0.8999794305863915,
+      "auroc_ci_high": 0.986583975839931,
+      "diff_vs_sequence": NaN,
+      "diff_ci_low": NaN,
+      "diff_ci_high": NaN,
+      "diff_p_gt0": NaN
+    },
+    {
+      "model": "full",
+      "n_train": 121,
+      "n_test": 399,
+      "auroc": 0.9428031604259705,
+      "auroc_ci_low": 0.8067507654623393,
+      "auroc_ci_high": 0.9759702849099243,
+      "diff_vs_sequence": -0.012882171075231819,
+      "diff_ci_low": -0.1360602861834387,
+      "diff_ci_high": 0.010605855733953614,
+      "diff_p_gt0": 0.196
+    },
+    {
+      "model": "fixed_temperature",
+      "n_train": 121,
+      "n_test": 399,
+      "auroc": 0.9549124012366885,
+      "auroc_ci_low": 0.8858249829438853,
+      "auroc_ci_high": 0.978833723292109,
+      "diff_vs_sequence": -0.0007729302645137492,
+      "diff_ci_low": -0.027118782541265114,
+      "diff_ci_high": 0.01787299602217934,
+      "diff_p_gt0": 0.428
+    },
+    {
+      "model": "ppr",
+      "n_train": 121,
+      "n_test": 399,
+      "auroc": 0.9681810374441773,
+      "auroc_ci_low": 0.889015972555746,
+      "auroc_ci_high": 0.9877189661644971,
+      "diff_vs_sequence": 0.012495705942975,
+      "diff_ci_low": -0.02675518925518927,
+      "diff_ci_high": 0.015377505157128145,
+      "diff_p_gt0": 0.852
+    },
+    {
+      "model": "beam_5",
+      "n_train": 121,
+      "n_test": 399,
+      "auroc": 0.9556853315012023,
+      "auroc_ci_low": 0.9016694934742145,
+      "auroc_ci_high": 0.9865127912867275,
+      "diff_vs_sequence": 0.0,
+      "diff_ci_low": 0.0,
+      "diff_ci_high": 0.0,
+      "diff_p_gt0": 0.0
+    }
+  ],
+  "runtime_s": 60.11779522895813
+}

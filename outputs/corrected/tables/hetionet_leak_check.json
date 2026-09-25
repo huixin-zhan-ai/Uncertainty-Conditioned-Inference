@@ -1,0 +1,12 @@
+{
+  "n_masked": 671,
+  "forward_present": 0,
+  "inverse_present": 0,
+  "other_relation_between_pair": 0,
+  "in_any_candidate_path": 0,
+  "in_training_graph_relation_counts": 2686,
+  "total_dps_original": 3357,
+  "caches_reset": true,
+  "relation_count_check": true,
+  "pass": true
+}

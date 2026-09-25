@@ -1,0 +1,143 @@
+{
+  "distribution_summary": [
+    {
+      "model": "beam_1",
+      "entropy_mean": 0.0,
+      "top1_mean": 1.0,
+      "effective_groups_mean": 1.0,
+      "js_to_full_mean": 0.284474082463319,
+      "rho_H_entropy": NaN,
+      "rho_H_top1": NaN,
+      "n": 982
+    },
+    {
+      "model": "beam_20",
+      "entropy_mean": 2.059670374939337,
+      "top1_mean": 0.41435845213849287,
+      "effective_groups_mean": 4.352278476118942,
+      "js_to_full_mean": 0.18648407128195485,
+      "rho_H_entropy": -0.2727728191207603,
+      "rho_H_top1": 0.23247547346076117,
+      "n": 982
+    },
+    {
+      "model": "beam_5",
+      "entropy_mean": 0.839542272426871,
+      "top1_mean": 0.7264765784114053,
+      "effective_groups_mean": 1.8044371959655232,
+      "js_to_full_mean": 0.15761668575786258,
+      "rho_H_entropy": -0.026576917553753812,
+      "rho_H_top1": 0.08181715730659372,
+      "n": 982
+    },
+    {
+      "model": "full",
+      "entropy_mean": 1.6623943359863096,
+      "top1_mean": 0.6055313617911967,
+      "effective_groups_mean": 3.7925087678736342,
+      "js_to_full_mean": 0.0,
+      "rho_H_entropy": 0.9514816814374875,
+      "rho_H_top1": -0.9041837999570401,
+      "n": 982
+    },
+    {
+      "model": "ppr",
+      "entropy_mean": 3.025065627942809,
+      "top1_mean": 0.2641509433962264,
+      "effective_groups_mean": 8.140207825016665,
+      "js_to_full_mean": 0.28730290597036073,
+      "rho_H_entropy": -0.030124334151317163,
+      "rho_H_top1": -0.030124334151317163,
+      "n": 982
+    },
+    {
+      "model": "uniform_endpoints",
+      "entropy_mean": 3.025065627942809,
+      "top1_mean": 0.2641509433962264,
+      "effective_groups_mean": 8.14020782501667,
+      "js_to_full_mean": 0.2873029059703608,
+      "rho_H_entropy": NaN,
+      "rho_H_top1": NaN,
+      "n": 982
+    },
+    {
+      "model": "uniform_paths",
+      "entropy_mean": 3.025065627942809,
+      "top1_mean": 0.2641509433962264,
+      "effective_groups_mean": 8.14020782501667,
+      "js_to_full_mean": 0.2873029059703608,
+      "rho_H_entropy": -0.004910705765512786,
+      "rho_H_top1": 0.004910705765512786,
+      "n": 982
+    }
+  ],
+  "downstream": [
+    {
+      "model": "sequence_only",
+      "n_train": 121,
+      "n_test": 398,
+      "auroc": 0.9552700348432056,
+      "diff_vs_sequence": NaN,
+      "auroc_ci_low": 0.9012300040053296,
+      "auroc_ci_high": 0.9857029278882825,
+      "n_boot_valid": 1000,
+      "diff_ci_low": NaN,
+      "diff_ci_high": NaN,
+      "diff_p_gt0": NaN
+    },
+    {
+      "model": "full",
+      "n_train": 121,
+      "n_test": 398,
+      "auroc": 0.9619337979094077,
+      "diff_vs_sequence": 0.006663763066202089,
+      "auroc_ci_low": 0.9119718548994865,
+      "auroc_ci_high": 0.9857895455852747,
+      "n_boot_valid": 1000,
+      "diff_ci_low": -0.005627872322178523,
+      "diff_ci_high": 0.017728155774221623,
+      "diff_p_gt0": 0.766
+    },
+    {
+      "model": "ppr",
+      "n_train": 121,
+      "n_test": 398,
+      "auroc": 0.9552700348432056,
+      "diff_vs_sequence": 0.0,
+      "auroc_ci_low": 0.9012300040053296,
+      "auroc_ci_high": 0.9857029278882825,
+      "n_boot_valid": 1000,
+      "diff_ci_low": 0.0,
+      "diff_ci_high": 0.0,
+      "diff_p_gt0": 0.0
+    },
+    {
+      "model": "uniform_paths",
+      "n_train": 121,
+      "n_test": 398,
+      "auroc": 0.9552700348432056,
+      "diff_vs_sequence": 0.0,
+      "auroc_ci_low": 0.9012300040053296,
+      "auroc_ci_high": 0.9857029278882825,
+      "n_boot_valid": 1000,
+      "diff_ci_low": 0.0,
+      "diff_ci_high": 0.0,
+      "diff_p_gt0": 0.0
+    },
+    {
+      "model": "beam_5",
+      "n_train": 121,
+      "n_test": 398,
+      "auroc": 0.9637630662020906,
+      "diff_vs_sequence": 0.008493031358885017,
+      "auroc_ci_low": 0.8859843625399378,
+      "auroc_ci_high": 0.9735276428075407,
+      "n_boot_valid": 1000,
+      "diff_ci_low": -0.03823036688902384,
+      "diff_ci_high": 0.01853204914119517,
+      "diff_p_gt0": 0.608
+    }
+  ],
+  "n_genes": 15,
+  "runtime_s": 34.84215784072876
+}

@@ -1,0 +1,186 @@
+{
+  "n_eval_variants": 964,
+  "n_eval_genes": 15,
+  "n_reps": 200,
+  "min_bin": 8,
+  "primary": "recall@10",
+  "bins_per_gene": {
+    "PSEN1": 20,
+    "APP": 26,
+    "PSEN2": 25,
+    "HFE": 12,
+    "MPO": 7,
+    "APOE": 4,
+    "NOS3": 1,
+    "ADAM10": 14,
+    "VCP": 24,
+    "MAPT": 23,
+    "GRN": 28,
+    "CSF1R": 21,
+    "PCDH11X": 21,
+    "PLAU": 4,
+    "PLCD1": 25
+  },
+  "summary": [
+    {
+      "model": "degree_perm",
+      "n": 964,
+      "n_genes": 15,
+      "recall@5": 0.04427446596400312,
+      "recall@5_lo": 0.02077102493944238,
+      "recall@5_hi": 0.1093199296818735,
+      "recall@5_gene_balanced": 0.11992497163949009,
+      "recall@10": 0.07167903282126502,
+      "recall@10_lo": 0.0474151423502041,
+      "recall@10_hi": 0.15037501349907728,
+      "recall@10_gene_balanced": 0.17097986574599758,
+      "recall@25": 0.15904547832183163,
+      "recall@25_lo": 0.10687917830706302,
+      "recall@25_hi": 0.5081741830746986,
+      "recall@25_gene_balanced": 0.32244635083240786,
+      "mrr": 0.03676034973688947,
+      "mrr_lo": 0.02746447002619122,
+      "mrr_hi": 0.09981641179529836,
+      "mrr_gene_balanced": 0.082385150939325
+    },
+    {
+      "model": "full",
+      "n": 964,
+      "n_genes": 15,
+      "recall@5": 0.09086864504668611,
+      "recall@5_lo": 0.06010398851491198,
+      "recall@5_hi": 0.14109856130376797,
+      "recall@5_gene_balanced": 0.16969650480455004,
+      "recall@10": 0.16331113455349094,
+      "recall@10_lo": 0.13251615475322628,
+      "recall@10_hi": 0.2455998188301722,
+      "recall@10_gene_balanced": 0.23621357701968224,
+      "recall@25": 0.3644901671149215,
+      "recall@25_lo": 0.30574721251622494,
+      "recall@25_hi": 0.5410245191128495,
+      "recall@25_gene_balanced": 0.39885946282733326,
+      "mrr": 0.06658791752552312,
+      "mrr_lo": 0.06026777044085934,
+      "mrr_hi": 0.14133716319717482,
+      "mrr_gene_balanced": 0.11675367990538318
+    },
+    {
+      "model": "popularity",
+      "n": 964,
+      "n_genes": 15,
+      "recall@5": 0.08120958856378023,
+      "recall@5_lo": 0.009131912808571445,
+      "recall@5_hi": 0.3459266142391964,
+      "recall@5_gene_balanced": 0.1977825213285739,
+      "recall@10": 0.11785421730486155,
+      "recall@10_lo": 0.01127271383394667,
+      "recall@10_hi": 0.48079490196588287,
+      "recall@10_gene_balanced": 0.26313103212576894,
+      "recall@25": 0.15069653853106504,
+      "recall@25_lo": 0.020453541814516533,
+      "recall@25_hi": 0.6237876561200468,
+      "recall@25_gene_balanced": 0.39102346885570577,
+      "mrr": 0.05549129036963373,
+      "mrr_lo": 0.019186436638760934,
+      "mrr_hi": 0.2209905590016746,
+      "mrr_gene_balanced": 0.1412050724187302
+    },
+    {
+      "model": "random",
+      "n": 964,
+      "n_genes": 15,
+      "recall@5": 0.03457776416977486,
+      "recall@5_lo": 0.02540186258176943,
+      "recall@5_hi": 0.1686543600905874,
+      "recall@5_gene_balanced": 0.11232493242823141,
+      "recall@10": 0.06293146194950823,
+      "recall@10_lo": 0.050035279474047976,
+      "recall@10_hi": 0.23023363179666084,
+      "recall@10_gene_balanced": 0.15798319818979617,
+      "recall@25": 0.14799255528870833,
+      "recall@25_lo": 0.12472469511598162,
+      "recall@25_hi": 0.46828887970735583,
+      "recall@25_gene_balanced": 0.2949579954744903,
+      "mrr": 0.03539655833474065,
+      "mrr_lo": 0.029417220339554337,
+      "mrr_hi": 0.08723989016898807,
+      "mrr_gene_balanced": 0.0800226257568375
+    }
+  ],
+  "paired": {
+    "full_minus_random|recall@5": {
+      "mean": 0.05629088087691123,
+      "lo": 0.01945957910957099,
+      "hi": 0.0812616906054719
+    },
+    "full_minus_random|recall@10": {
+      "mean": 0.10037967260398274,
+      "lo": 0.03357352093038771,
+      "hi": 0.12195415330110745
+    },
+    "full_minus_random|recall@25": {
+      "mean": 0.21649761182621308,
+      "lo": 0.12352525018554805,
+      "hi": 0.2875979105956025
+    },
+    "full_minus_popularity|recall@5": {
+      "mean": 0.009659056482905866,
+      "lo": -0.15020665672952802,
+      "hi": 0.10523661413277818
+    },
+    "full_minus_popularity|recall@10": {
+      "mean": 0.0454569172486294,
+      "lo": -0.13733515455283463,
+      "hi": 0.17057975403446898
+    },
+    "full_minus_popularity|recall@25": {
+      "mean": 0.2137936285838564,
+      "lo": -0.07483382320568195,
+      "hi": 0.3099453111255719
+    },
+    "full_minus_degree_perm|recall@5": {
+      "mean": 0.046594179082682985,
+      "lo": 0.00487959499429208,
+      "hi": 0.06481923611720927
+    },
+    "full_minus_degree_perm|recall@10": {
+      "mean": 0.09163210173222593,
+      "lo": 0.011054842833397421,
+      "hi": 0.13574414802205556
+    },
+    "full_minus_degree_perm|recall@25": {
+      "mean": 0.20544468879308977,
+      "lo": 0.12480079576890916,
+      "hi": 0.2562063551501051
+    }
+  },
+  "degree_perm_reference": {
+    "full_gene_balanced": 0.23621357701968224,
+    "perm_mean": 0.17097986574599755,
+    "perm_p975": 0.20347311792717065,
+    "perm_max": 0.22636127691711652,
+    "p_value_upper_bound": 0.004975124378109453
+  },
+  "coverage": {
+    "n_heldout_symptoms": 601,
+    "n_reachable": 157,
+    "reachable_fraction": 0.2612312811980033,
+    "eval_gene_reachable_fraction": 0.26430976430976433
+  },
+  "leak_check": {
+    "n_masked": 671,
+    "forward_present": 0,
+    "inverse_present": 0,
+    "other_relation_between_pair": 0,
+    "in_any_candidate_path": 0,
+    "in_training_graph_relation_counts": 2686,
+    "total_dps_original": 3357,
+    "caches_reset": true,
+    "relation_count_check": true,
+    "pass": true
+  },
+  "runtime_s": 11.426757097244263,
+  "unconditional_recall@5_full": 0.05309218279714721,
+  "unconditional_recall@10_full": 0.1000199613979255,
+  "unconditional_recall@25_full": 0.23659277607362078
+}

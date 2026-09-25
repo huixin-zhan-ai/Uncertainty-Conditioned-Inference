@@ -1,0 +1,14 @@
+{
+  "random_seed": 42,
+  "max_path_depth": 6,
+  "feature_count": 14,
+  "l2_penalty": 0.01,
+  "path_softmax_temperature": "0.25 + 1.4 * H",
+  "revision_temperature": "0.35 + 0.9 * H",
+  "revision_steps": "10 + round(15 * H)",
+  "entropy_perturbation": 0.3,
+  "knn_neighbors_cap": 31,
+  "bootstrap_replicates": 1000,
+  "allow_synthetic_graph": false,
+  "allow_heuristic_scorer": false
+}

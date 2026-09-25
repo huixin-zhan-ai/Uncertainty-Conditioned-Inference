@@ -1,0 +1,4 @@
+variant_id,gene_id,gene_symbol,clinical_significance,pathogenicity_prob,isotonic_entropy
+1691317,Gene:1691756,SORCS1,Likely_pathogenic,0.9999722787733127,2.1374262889438523e-05
+870546,Gene:1685842,PLCD1,Uncertain_significance,0.9999999812815207,2.1374262889438523e-05
+870540,Gene:1656755,GRID2IP,Uncertain_significance,0.9999999999999944,2.1374262889438523e-05

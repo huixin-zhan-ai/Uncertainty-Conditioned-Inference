@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "runner": "run_corrected_study.py",
+  "normative_specification": "../../CORRECTED_STUDY_SPEC.md",
+  "source_files": [
+    "tables/alternative_uncertainty.csv",
+    "tables/alternative_class_summary.csv",
+    "tables/alternative_gene_summary.csv",
+    "figures/figure5_alternative_uncertainty_corrected.pdf"
+  ]
+}

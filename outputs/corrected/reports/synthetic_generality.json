@@ -1,0 +1,36 @@
+{
+  "design": {
+    "state_sizes": [
+      53,
+      256,
+      1024
+    ],
+    "uncertainty_levels": [
+      0.05,
+      0.25,
+      0.5,
+      0.75,
+      0.95
+    ],
+    "replicates": 30,
+    "chains_per_condition": 512,
+    "groups": 10,
+    "proposal": "90% learned proposal at twice target temperature plus 10% uniform, with Hastings correction"
+  },
+  "correlations": {
+    "53": {
+      "H_vs_acceptance": 0.9031741554766546,
+      "H_vs_target_entropy": 0.791148335083034
+    },
+    "256": {
+      "H_vs_acceptance": 0.9314799993078902,
+      "H_vs_target_entropy": 0.8311031223371241
+    },
+    "1024": {
+      "H_vs_acceptance": 0.9522739076608363,
+      "H_vs_target_entropy": 0.7839630054951049
+    }
+  },
+  "maximum_mean_sampler_js": 0.003796508405301953,
+  "maximum_p95_sampler_js": 0.006876194038283503
+}

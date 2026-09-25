@@ -1,0 +1,27 @@
+{
+  "run_id": "corrected_frozen_2026-09-04",
+  "seed": 42,
+  "graph_mode": "real_cypherl",
+  "data": {
+    "evo2_scores_sha256": "11756cad53ed80c2cd505e35118d8feb5ab50f2294cc3d43269416becee15313",
+    "alzkb_sha256": "d6338e24e3e898da7e56f1fd9ec13b13696216dd96d98731b8cf4c60c3f5134e"
+  },
+  "model_sha256": "4fdc6910ba4b56d95765b29820b3b20728d106d57bb336d581016ccabcfb0035",
+  "software": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "scikit_learn": "1.6.1"
+  },
+  "parameters": {
+    "theta": "0.35 + 0.9 H",
+    "proposal": "0.9 softmax(U/(2 theta)) + 0.1 uniform; full Hastings correction",
+    "fixed_theta_ablation": 0.8,
+    "max_gene_hops": 1,
+    "max_routes": 24,
+    "metropolis_chains": 512,
+    "revision_steps": "50 + 10 ceil(log2 N_paths) + round(25 H)",
+    "l2": 0.01
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "runner": "run_corrected_study.py",
+  "normative_specification": "../../CORRECTED_STUDY_SPEC.md",
+  "source_files": [
+    "tables/variants_locked_signals.csv",
+    "manifests/locked_split.json",
+    "manifests/run_manifest.json",
+    "manifests/artifact_manifest.json"
+  ]
+}

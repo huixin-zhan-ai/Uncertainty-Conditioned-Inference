@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "runner": "run_corrected_reclassification.py",
+  "normative_specification": "../../CORRECTED_STUDY_SPEC.md",
+  "source_files": [
+    "tables/locked_validation_predictions.csv",
+    "tables/reclassification_features.csv",
+    "tables/selective_classification.csv",
+    "tables/vus_calls_sequence_only.csv",
+    "tables/vus_calls_sequence_plus_graph.csv",
+    "reports/reclassification_results.json",
+    "manifests/reclassification_outer_folds.json",
+    "figures/figure7_reclassification_corrected.pdf"
+  ]
+}

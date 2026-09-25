@@ -1,0 +1,243 @@
+{
+  "n_variants_loaded": 985,
+  "n_variants_analyzed": 982,
+  "n_variants_excluded_no_path": 3,
+  "n_genes": 18,
+  "n_path_scorer_training": 121,
+  "path_scorer_training_classes": [
+    "Pathogenic",
+    "Benign"
+  ],
+  "locked_validation_classes": [
+    "Likely_pathogenic",
+    "Likely_benign"
+  ],
+  "correlations": {
+    "H_vs_group_entropy": 0.9514816814374875,
+    "H_vs_raw_endpoint_entropy": 0.8897912507673056,
+    "H_vs_unique_final_routes": 0.4026104374887577,
+    "H_vs_acceptance_rate": 0.4915842351443871
+  },
+  "mean_sampler_js_to_exact": 0.003138827253943668,
+  "median_sampler_js_to_exact": 0.002910904238626914,
+  "mean_acceptance_rate": 0.5073367475572572,
+  "propagation_by_stratum": [
+    {
+      "uncertainty_stratum": "Q1 low",
+      "phenotype_entropy_mean": 0.5853363561095781,
+      "effective_groups_mean": 1.536816014494676,
+      "top1_mass_mean": 0.8639208191474301,
+      "n": 349
+    },
+    {
+      "uncertainty_stratum": "Q2",
+      "phenotype_entropy_mean": 1.8136215163211766,
+      "effective_groups_mean": 3.7051454265348,
+      "top1_mass_mean": 0.585838270277837,
+      "n": 236
+    },
+    {
+      "uncertainty_stratum": "Q3",
+      "phenotype_entropy_mean": 2.3704077321982306,
+      "effective_groups_mean": 5.256658377939552,
+      "top1_mass_mean": 0.43481408576560815,
+      "n": 170
+    },
+    {
+      "uncertainty_stratum": "Q4 high",
+      "phenotype_entropy_mean": 2.6308584023383976,
+      "effective_groups_mean": 6.2548395422085035,
+      "top1_mass_mean": 0.3565956168756795,
+      "n": 227
+    }
+  ],
+  "ranking_by_stratum": [
+    {
+      "uncertainty_stratum": "Q1 low",
+      "mean_js": 0.03533180038468733,
+      "mean_top1_switch": 0.004297994269340974,
+      "mean_top5_overlap": 0.9460362941738301,
+      "n": 349
+    },
+    {
+      "uncertainty_stratum": "Q2",
+      "mean_js": 0.031708243988393815,
+      "mean_top1_switch": 0.059322033898305086,
+      "mean_top5_overlap": 0.9668079096045198,
+      "n": 236
+    },
+    {
+      "uncertainty_stratum": "Q3",
+      "mean_js": 0.013355490223236574,
+      "mean_top1_switch": 0.13823529411764707,
+      "mean_top5_overlap": 0.9931372549019608,
+      "n": 170
+    },
+    {
+      "uncertainty_stratum": "Q4 high",
+      "mean_js": 0.007398598336638701,
+      "mean_top1_switch": 0.14977973568281938,
+      "mean_top5_overlap": 1.0,
+      "n": 227
+    }
+  ],
+  "alternative_by_class": [
+    {
+      "clinical_significance": "Benign",
+      "mean_js": 0.09889026071721219,
+      "mean_top1_switch": 0.07317073170731707,
+      "mean_top5_overlap": 0.9674796747967479,
+      "n": 41
+    },
+    {
+      "clinical_significance": "Likely_benign",
+      "mean_js": 0.020122629639039515,
+      "mean_top1_switch": 0.03353658536585366,
+      "mean_top5_overlap": 0.983739837398374,
+      "n": 328
+    },
+    {
+      "clinical_significance": "Likely_pathogenic",
+      "mean_js": 0.008993652686523143,
+      "mean_top1_switch": 0.07142857142857142,
+      "mean_top5_overlap": 0.9523809523809524,
+      "n": 70
+    },
+    {
+      "clinical_significance": "Pathogenic",
+      "mean_js": 0.05728324992820847,
+      "mean_top1_switch": 0.075,
+      "mean_top5_overlap": 0.9,
+      "n": 80
+    },
+    {
+      "clinical_significance": "Uncertain_significance",
+      "mean_js": 0.015006256489522527,
+      "mean_top1_switch": 0.047516198704103674,
+      "mean_top5_overlap": 0.9712023038156948,
+      "n": 463
+    }
+  ],
+  "alternative_by_gene": [
+    {
+      "gene_id": "Gene:1669072",
+      "gene_symbol": "APP",
+      "mean_js": 0.02760374098305926,
+      "median_js": 0.006995369889354518,
+      "n": 372,
+      "eligible_n_ge_5": true
+    },
+    {
+      "gene_id": "Gene:1686490",
+      "gene_symbol": "PSEN1",
+      "mean_js": 0.023600152000072806,
+      "median_js": 0.0007151519357102995,
+      "n": 334,
+      "eligible_n_ge_5": true
+    },
+    {
+      "gene_id": "Gene:1686491",
+      "gene_symbol": "PSEN2",
+      "mean_js": 0.019214928858030167,
+      "median_js": 0.0021754782125311804,
+      "n": 215,
+      "eligible_n_ge_5": true
+    },
+    {
+      "gene_id": "Gene:1669348",
+      "gene_symbol": "APOE",
+      "mean_js": 0.0182585879261135,
+      "median_js": 0.0015752746243907023,
+      "n": 12,
+      "eligible_n_ge_5": true
+    },
+    {
+      "gene_id": "Gene:1683428",
+      "gene_symbol": "MPO",
+      "mean_js": 0.011049827780705457,
+      "median_js": 0.00011997806004902727,
+      "n": 8,
+      "eligible_n_ge_5": true
+    },
+    {
+      "gene_id": "Gene:1653042",
+      "gene_symbol": "ABCA7",
+      "mean_js": 0.008115864781858008,
+      "median_js": 0.0025430498384798597,
+      "n": 19,
+      "eligible_n_ge_5": true
+    },
+    {
+      "gene_id": "Gene:1675894",
+      "gene_symbol": "HFE",
+      "mean_js": 0.004250307943324419,
+      "median_js": 0.0022355299779155853,
+      "n": 8,
+      "eligible_n_ge_5": true
+    },
+    {
+      "gene_id": "Gene:1683819",
+      "gene_symbol": "NOS3",
+      "mean_js": 0.0028961808104379446,
+      "median_js": 0.0014047307173006116,
+      "n": 6,
+      "eligible_n_ge_5": true
+    },
+    {
+      "gene_id": "Gene:1686104",
+      "gene_symbol": "PLAU",
+      "mean_js": 0.010369649592584344,
+      "median_js": 0.010369649592584344,
+      "n": 1,
+      "eligible_n_ge_5": false
+    },
+    {
+      "gene_id": "Gene:1671510",
+      "gene_symbol": "CSF1R",
+      "mean_js": 0.004296056277084916,
+      "median_js": 0.004296056277084916,
+      "n": 2,
+      "eligible_n_ge_5": false
+    },
+    {
+      "gene_id": "Gene:1682905",
+      "gene_symbol": "MAPT",
+      "mean_js": 0.0004522962401422159,
+      "median_js": 0.0004522962401422159,
+      "n": 1,
+      "eligible_n_ge_5": false
+    },
+    {
+      "gene_id": "Gene:1652524",
+      "gene_symbol": "ADAM10",
+      "mean_js": 8.681476361302393e-05,
+      "median_js": 8.681476361302393e-05,
+      "n": 1,
+      "eligible_n_ge_5": false
+    },
+    {
+      "gene_id": "Gene:1675119",
+      "gene_symbol": "GRN",
+      "mean_js": 0.0,
+      "median_js": 0.0,
+      "n": 1,
+      "eligible_n_ge_5": false
+    },
+    {
+      "gene_id": "Gene:1687161",
+      "gene_symbol": "PCDH11X",
+      "mean_js": 0.0,
+      "median_js": 0.0,
+      "n": 1,
+      "eligible_n_ge_5": false
+    },
+    {
+      "gene_id": "Gene:1694909",
+      "gene_symbol": "VCP",
+      "mean_js": 0.0,
+      "median_js": 0.0,
+      "n": 1,
+      "eligible_n_ge_5": false
+    }
+  ]
+}

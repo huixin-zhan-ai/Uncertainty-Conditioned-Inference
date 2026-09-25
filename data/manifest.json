@@ -1,0 +1,10 @@
+{
+  "alzkb_cypherl": {
+    "path": "data/raw/alzkb/alzkb-v2-0-0_memgraph.cypherl",
+    "sha256": "d6338e24e3e898da7e56f1fd9ec13b13696216dd96d98731b8cf4c60c3f5134e"
+  },
+  "evo2_scores": {
+    "path": "data/raw/evo2/ad_all_scores_v3_vcf.csv",
+    "sha256": "11756cad53ed80c2cd505e35118d8feb5ab50f2294cc3d43269416becee15313"
+  }
+}

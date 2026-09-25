@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "runner": "run_corrected_study.py",
+  "normative_specification": "../../CORRECTED_STUDY_SPEC.md",
+  "source_files": [
+    "tables/ranking.csv",
+    "tables/ranking_summary.csv",
+    "figures/figure4_ranking_sensitivity_corrected.pdf"
+  ]
+}

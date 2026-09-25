@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "runner": "run_corrected_study.py",
+  "normative_specification": "../../CORRECTED_STUDY_SPEC.md",
+  "source_files": [
+    "tables/ablations.csv",
+    "tables/branching.csv",
+    "figures/figure6_graph_ablations_corrected.pdf"
+  ]
+}

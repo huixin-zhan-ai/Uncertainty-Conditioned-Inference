@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "runner": "run_synthetic_generality.py",
+  "normative_specification": "../../CORRECTED_STUDY_SPEC.md",
+  "source_files": [
+    "tables/synthetic_generality.csv",
+    "tables/synthetic_generality_summary.csv",
+    "reports/synthetic_generality.json",
+    "figures/figure8_synthetic_generality.pdf"
+  ]
+}

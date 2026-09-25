@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "runner": "run_corrected_study.py",
+  "normative_specification": "../../CORRECTED_STUDY_SPEC.md",
+  "source_files": [
+    "tables/diffusion_diagnostics.csv",
+    "tables/propagation.csv",
+    "tables/propagation_summary.csv",
+    "figures/figure3_diffusion_and_propagation_corrected.pdf"
+  ]
+}

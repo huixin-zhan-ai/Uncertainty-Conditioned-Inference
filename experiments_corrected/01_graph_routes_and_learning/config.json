@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "runner": "run_corrected_study.py",
+  "normative_specification": "../../CORRECTED_STUDY_SPEC.md",
+  "source_files": [
+    "tables/path_audit.csv",
+    "models/path_scorer.json",
+    "figures/figure1_framework_corrected.pdf"
+  ]
+}

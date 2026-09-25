@@ -1,0 +1,286 @@
+{
+  "run_id": "corrected_frozen_2026-09-04",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Definitive and likely IDs are disjoint",
+      "passed": true
+    },
+    {
+      "check": "Definitive and VUS IDs are disjoint",
+      "passed": true
+    },
+    {
+      "check": "Likely and VUS IDs are disjoint",
+      "passed": true
+    },
+    {
+      "check": "Path scorer uses definitive IDs only",
+      "passed": true
+    },
+    {
+      "check": "Fold 0 is disjoint",
+      "passed": true
+    },
+    {
+      "check": "Fold 0 covers definitive set",
+      "passed": true
+    },
+    {
+      "check": "Fold 1 is disjoint",
+      "passed": true
+    },
+    {
+      "check": "Fold 1 covers definitive set",
+      "passed": true
+    },
+    {
+      "check": "Fold 2 is disjoint",
+      "passed": true
+    },
+    {
+      "check": "Fold 2 covers definitive set",
+      "passed": true
+    },
+    {
+      "check": "Fold 3 is disjoint",
+      "passed": true
+    },
+    {
+      "check": "Fold 3 covers definitive set",
+      "passed": true
+    },
+    {
+      "check": "Fold 4 is disjoint",
+      "passed": true
+    },
+    {
+      "check": "Fold 4 covers definitive set",
+      "passed": true
+    },
+    {
+      "check": "Loaded cohort count is 985",
+      "passed": true
+    },
+    {
+      "check": "Analyzed cohort count is 982",
+      "passed": true
+    },
+    {
+      "check": "Definitive training count is consistent",
+      "passed": true
+    },
+    {
+      "check": "Locked validation has 399 IDs and 398 valid graph routes",
+      "passed": true
+    },
+    {
+      "check": "VUS input has 465 IDs and 463 valid graph routes",
+      "passed": true
+    },
+    {
+      "check": "Real-data sampler mean JS is below 0.01",
+      "passed": true
+    },
+    {
+      "check": "Synthetic sampler p95 JS is below 0.01",
+      "passed": true
+    },
+    {
+      "check": "Removed legacy manuscript pattern: 0\\.25\\s*\\+\\s*1\\.4",
+      "passed": true
+    },
+    {
+      "check": "Removed legacy manuscript pattern: 10\\s*\\+\\s*\\\\lfloor\\s*15",
+      "passed": true
+    },
+    {
+      "check": "Removed legacy manuscript pattern: Pathogenic/Likely",
+      "passed": true
+    },
+    {
+      "check": "Removed legacy manuscript pattern: complete candidate set.*every valid",
+      "passed": true
+    },
+    {
+      "check": "Removed legacy manuscript pattern: gene--process/pathway--disease--phenotype graph defines",
+      "passed": true
+    },
+    {
+      "check": "Manuscript contains frozen value: mean Jensen--Shannon divergence 0.0031",
+      "passed": true
+    },
+    {
+      "check": "Manuscript contains frozen value: AUROC point estimate increased from 0.955 to\n0.968",
+      "passed": true
+    },
+    {
+      "check": "Manuscript contains frozen value: worsened from 0.112 to 0.120",
+      "passed": true
+    },
+    {
+      "check": "Manuscript contains frozen value: largest condition-level\nmean JS error was 0.0038",
+      "passed": true
+    },
+    {
+      "check": "Figure exists: figures/fig1_framework.pdf",
+      "passed": true
+    },
+    {
+      "check": "Figure exists: figures/fig2_landscape.pdf",
+      "passed": true
+    },
+    {
+      "check": "Figure exists: figures/fig3_diffusion_propagation.pdf",
+      "passed": true
+    },
+    {
+      "check": "Figure exists: figures/fig4_ranking.pdf",
+      "passed": true
+    },
+    {
+      "check": "Figure exists: figures/fig5_altmetric.pdf",
+      "passed": true
+    },
+    {
+      "check": "Figure exists: figures/fig6_ablations.pdf",
+      "passed": true
+    },
+    {
+      "check": "Figure exists: figures/fig7_reclassification.pdf",
+      "passed": true
+    },
+    {
+      "check": "Figure exists: figures/fig8_synthetic.pdf",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: alternative_uncertainty.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: alternative_class_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: branching.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: alternative_gene_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: propagation_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: ranking_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: diffusion_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: vus_calls_sequence_only.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: synthetic_generality.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: propagation.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: selective_classification.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: excluded_variants.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: synthetic_generality_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: vus_calls_sequence_plus_graph.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: path_audit.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: ablations.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: locked_validation_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: ranking.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: variants_locked_signals.csv",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric values: reclassification_features.csv",
+      "passed": true
+    }
+  ],
+  "artifacts_sha256": {
+    "tables/ablations.csv": "9c1545172d19daad331923c0a9c53e40cd453419bcff2a0da485257d6cbb31de",
+    "tables/alternative_class_summary.csv": "e804d2a1cbde65e776b31c7f6f5878f3413211a888349f79cf82ae06672631ae",
+    "tables/alternative_gene_summary.csv": "eaf66a922038b7bc0cb9d4c4c05e6d394ff2618555398cc0cf353c8d556c719e",
+    "tables/alternative_uncertainty.csv": "5968399b576b65ba550dbf63da19c235081d6a79b6b414e4bfbb198df9f58a1a",
+    "tables/branching.csv": "32ac4b087bf4c0ff39267d81446fe256d238190d352e6d99a3aba93d7db0de26",
+    "tables/diffusion_diagnostics.csv": "2e4a3b0e8650aeb0540945cfefe1f7707829e389c4fcbbf89b075bdea1fa279d",
+    "tables/excluded_variants.csv": "85ed67397396fcad6edafd0c70930daa86fbad3dd88e78f2850e6eb760d0e8f6",
+    "tables/locked_validation_predictions.csv": "0ee96aef505d91d7fc81be1d153b19357092e017ef9aae7391f19be3bc59047c",
+    "tables/path_audit.csv": "33e7a2687cd5d2796e3c73f8f57e7e407f113ace1363c5af37454f4e15b785bb",
+    "tables/propagation.csv": "41f2cb57412da27f3c09838e319bebd690f7a6268f154617f74b5075bfe73b33",
+    "tables/propagation_summary.csv": "524c0064b16a547ae89702376fd7b89fb547317059b7b27aa1e90c4952c83829",
+    "tables/ranking.csv": "e90d7bfbf31592ced9cf0a6b4dfaa623a332b70d37394597ea2cf956d47ba9cb",
+    "tables/ranking_summary.csv": "02442efc999c6d501aede26db7fed260cc2c072a594ace6a826eea890e1408b9",
+    "tables/reclassification_features.csv": "39cc72c06d10fb6c44b314cb4217d3925961ffbb72957a2a048b4a3cf33620fc",
+    "tables/selective_classification.csv": "acc522bcee2d2e2e67c6a41fc8b4b06cbdc02df1e3bbffbf299659e005c4a90e",
+    "tables/synthetic_generality.csv": "9e935bcc22b161795bd4e45b6b198cac0b9bc2310b98a21489fdb95d3107b44a",
+    "tables/synthetic_generality_summary.csv": "64938cba06ce17295648ef7190b5afe10e008dc50512e8f27a0448b22c2fa504",
+    "tables/variants_locked_signals.csv": "0375e742be66c3245c127449d765a5297dde6076dfc79ec793cccebd771519b3",
+    "tables/vus_calls_sequence_only.csv": "53fd5219e94f1a741b8ffe439d9d6132e2818a5e4bb544e92835a794b30c8ea3",
+    "tables/vus_calls_sequence_plus_graph.csv": "495a61e72ba9827d51bebd14d87cff927debb3b6b2370edbaf392f1141680f8f",
+    "reports/corrected_real_data_report.md": "f265fff58344d2909639c426c53488bddb9c13ebab49307574e7f9632b3ba0a4",
+    "reports/corrected_results.json": "b82d44c7d3520faac816b6b2155f0e551baa76c9be4ab4508f5a4432e3c2642b",
+    "reports/reclassification_results.json": "29bf61a4fadd4534a0bcc94d24c30fd77ca071fda71572ecfc08829a882b11ed",
+    "reports/synthetic_generality.json": "953adcc268e9bc81bbcda7aef48aeaca39ae144a9f2a96a81706d886de7a4526",
+    "figures/figure1_framework_corrected.pdf": "e2682d1cc9be82536952a5bd9bb4e1235806ee397469f2bf4456e10055bfc0d6",
+    "figures/figure1_framework_corrected.png": "e54299213b104b16c85b5e4f7ceca54c6e4024b6a490faaa9007744fe209a2aa",
+    "figures/figure2_sequence_landscape_corrected.pdf": "1a6f263e2a0e9eaccfedbb1ddc78bd3b6368fbe7f2b3b9bf2f75133e4d7cf8d1",
+    "figures/figure2_sequence_landscape_corrected.png": "ea9d7f7494f05883f19bf2982ee4678cdc514bb99f4ca2bc4212c184746d04d3",
+    "figures/figure3_diffusion_and_propagation_corrected.pdf": "abc632364a92a3c12e2c4adcbcefc850622a6cf499a9a0b9c9de9fff5299f292",
+    "figures/figure3_diffusion_and_propagation_corrected.png": "51ec8d92d4380ee8ce1aecf71366b4fce159123a222b81916c9cf6961b9c8b73",
+    "figures/figure4_ranking_sensitivity_corrected.pdf": "41e985434369a430ecd76517dd00faaa7a0846c6ac4a717c6b35f7aa967e9e22",
+    "figures/figure4_ranking_sensitivity_corrected.png": "376684e314fd25095c208ae2ba196a543f41a687b9e6a1a352d94620f2a27640",
+    "figures/figure5_alternative_uncertainty_corrected.pdf": "63b61e43366a8faa973df39d74f665a9cd63b6cbb13fb0a737e870f82bd05b7d",
+    "figures/figure5_alternative_uncertainty_corrected.png": "3ae2256717e1b3d6c9894c14f742e8dabe5c4141c8fdbac3145cd1637817a1f0",
+    "figures/figure6_graph_ablations_corrected.pdf": "e12982671dbff258aa11cfca3b253c7850ddc20ac6e4bf4e65ffe1710f42ef21",
+    "figures/figure6_graph_ablations_corrected.png": "269626257eef011640fe410d344d23f6051855ae2b45c6c0c98b6b6a8eacb906",
+    "figures/figure7_reclassification_corrected.pdf": "4762930a9039f87b0b0c3c70e63d0b96afc9725ef5b683a7176d069330abd82b",
+    "figures/figure7_reclassification_corrected.png": "12c2dfbbeb580623cd5bb3e3139d6abf367056c986d83559d9371164ef98008b",
+    "figures/figure8_synthetic_generality.pdf": "195f48b1a35bf3499ebc2d8ad05c583167221a06b3372a3757405bec54d78d0b",
+    "figures/figure8_synthetic_generality.png": "f027c4ac89f7cf5932d4873a04ff1a8545d9680622efd186033b6969d01c8564",
+    "models/path_scorer.json": "4fdc6910ba4b56d95765b29820b3b20728d106d57bb336d581016ccabcfb0035",
+    "manifests/locked_split.json": "bf41905da0a6ebead00ed4b079043ec059b05481a0228303548b193f09603f17",
+    "manifests/reclassification_outer_folds.json": "4467c30c938abe6a38c26ffac2b50b74e9ca8ffaba7d0dc13a998fe55f738991",
+    "manifests/run_manifest.json": "49c6aec121e9c6996f6f9325a569648583ec3249205fb0ec37e725adebf3f8df",
+    "manuscript/manuscript.tex": "7c803c8ad7b497d00f28efaf97b6293b1342598fd3f5f48deab0da49ce2bde68",
+    "manuscript/manuscript.pdf": "0356987173da5e2d3c3fa525d3f2040fa50b786aafb054672d7a79d20d85ee20"
+  }
+}
